@@ -1,7 +1,7 @@
 # Cost-of-a-Fence-project_0725
 
 ## Algorithm (pseudocode)
-
+~~~~
 input perimeter in foot
 
 input fenceType
@@ -24,3 +24,4 @@ else if fenceType is "chain-link":
 else:
 
   print "fenceType invalide. please enter either wooden or chain-link"
+~~~~
