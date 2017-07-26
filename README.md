@@ -3,13 +3,21 @@
 ## Algorithm (pseudocode)
 
 ~~~~
+do {
 input perimeter in foot
-input fenceType
-input nGates
+} while (perimeter <= 0)
 
-if nGates < 1 or nGates > 3:
-  print "invalid number of gates"
+do {
+input fenceType
+} while (fenceType is not "wooden" nor "chain-link")
+
+do {
+input nGates
+} while (nGates is not integer)
+
+do {
   input nGates
+} while (nGates < 1 or nGates > 3)
 
 if fenceType is "wooden":
   cost = (25\*perimeter + nGates\*150)\*(1 + 0.06) + 50
