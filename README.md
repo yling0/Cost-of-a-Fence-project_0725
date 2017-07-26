@@ -10,18 +10,18 @@ input nGates
 
 if nGates < 1 or nGates > 3:
 
-  print "invalid number of gates"
+$\qquad$  print "invalid number of gates"
 
-  input nGates
+$\qquad$  input nGates
 
 if fenceType is "wooden":
 
-  cost = (25\*perimeter + nGates\*150)\*(1 + 0.06) + 50
+$\qquad$  cost = (25\*perimeter + nGates\*150)\*(1 + 0.06) + 50
 
 else if fenceType is "chain-link":
 
-  cost = (15\*perimeter + nGates\*150)\*(1 + 0.06) + 50
+$\qquad$  cost = (15\*perimeter + nGates\*150)\*(1 + 0.06) + 50
 
 else:
 
-  print "fenceType invalide. please enter either wooden or chain-link"
+$\qquad$  print "fenceType invalide. please enter either wooden or chain-link"
