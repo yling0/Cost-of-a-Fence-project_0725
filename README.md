@@ -16,11 +16,11 @@ if nGates < 1 or nGates > 3:
 
 if fenceType is "wooden":
 
-  cost = (25*perimeter + nGates*150)*(1 + 0.06) + 50
+  cost = (25\*perimeter + nGates\*150)\*(1 + 0.06) + 50
 
 else if fenceType is "chain-link":
 
-  cost = (15*perimeter + nGates*150)*(1 + 0.06) + 50
+  cost = (15\*perimeter + nGates\*150)\*(1 + 0.06) + 50
 
 else:
 
